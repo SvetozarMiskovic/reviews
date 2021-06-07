@@ -48,7 +48,7 @@ function switchPerson() {
   job.textContent = reviews[currentPerson].job;
   info.textContent = reviews[currentPerson].text;
 }
-// inital load // malo sam zbunjen na pocetku bio i ovo sam pogledao i stavio ovaj inital load. ostalo sam sam :)
+// inital load // malo sam zbunjen na pocetku bio i ovo sam pogledao i stavio ovaj inital load jer nisam znao za DOMContentLoaded uopst
 window.addEventListener('DOMContentLoaded', function () {
   const person = reviews[currentPerson];
   img.src = person.img;
